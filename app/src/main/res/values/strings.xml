@@ -1,0 +1,55 @@
+<resources>
+
+    <string name="app_name">MusicPlayerApp</string>
+    <string name="main_activity_description">This screen displays all songs and albums. All songs and albums are clickable. Also there is 3-dot menu on top right corner for other actions. I have used support desgn library and data binding library heavily in this app. </string>
+
+    ----------------------------------------------------------------------
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_playing_list">Gospel Music</string>
+    <string name="category_coming3">International Music</string>
+    <string name="category_coming2">Traditional Music</string>
+    <string name="category_gospel">Gospel Music</string>
+    <string name="category_coming1">Baganda Music</string>
+    <string name="now_playing_activity">Now Playing</string>
+
+    --------------------------------------------------------------------
+
+    <string name="artist_1">Brian Lubega</string>
+    <string name="artist_2">Jackie Senyonjo</string>
+    <string name="artist_3">Judith Babirye</string>
+    <string name="artist_4">Jean Peace</string>
+    <string name="artist_5">Joseph Ngoma</string>
+    <string name="artist_6">Mukisa Wilber</string>
+    <string name="artist_7">Julie Mutesasira</string>
+    <string name="artist_8">Solome Mirembe</string>
+    <string name="artist_9">Joy Kihuguru</string>
+    <string name="artist_10">Sylver Kyagulaanyi</string>
+
+    --------------------------------------------------------------------
+
+    <string name="song_1">Nungamya</string>
+    <string name="song_2">Nandibadewa</string>
+    <string name="song_3">Ngulumiza Mukama</string>
+    <string name="song_4">Asaanidde</string>
+    <string name="song_5">Kamberenga Naye</string>
+    <string name="song_6">Genda Nange</string>
+    <string name="song_7">Ninze</string>
+    <string name="song_8">Kisa Kya Mukama</string>
+    <string name="song_9">Nkulembera</string>
+    <string name="song_10">Omusaalaba</string>
+
+    --------------------------------------------------------------------
+
+    <string name="now_playing">Now Playing</string>
+    <string name="play_button">Play Button</string>
+    <string name="default_music">Default vinyl record image</string>
+    <string name="fast_forward_button">Fast forward button</string>
+    <string name="rewind_button">Rewind button</string>
+    <string name="volume_off">Volume off</string>
+    <string name="volume_on">Volume on</string>
+
+
+
+</resources>

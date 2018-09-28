@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/miwok_text_view"
+        android:layout_marginTop="@dimen/eight"
+        android:layout_marginLeft="@dimen/sixteen"
+        android:layout_marginBottom="@dimen/eight"
+        android:layout_marginRight="@dimen/sixteen"
+        android:text="lutti"
+        android:textSize="@dimen/twenty_text"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/default_text_view"
+        android:layout_marginTop="@dimen/eight"
+        android:layout_marginLeft="@dimen/sixteen"
+        android:layout_marginBottom="@dimen/eight"
+        android:layout_marginRight="@dimen/sixteen"
+        android:text="one"
+        />
+
+</LinearLayout>

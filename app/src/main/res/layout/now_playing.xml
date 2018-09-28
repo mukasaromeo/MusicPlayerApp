@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="@dimen/now_playing_layout_padding">
+
+        <ImageView
+            android:id="@+id/default_image"
+            style="@style/NowPlayingImage"
+            android:contentDescription="@string/default_music"
+            android:src="@drawable/paulkafeero"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/play_button"
+            style="@style/PlayButton"
+            android:contentDescription="@string/play_button"
+            android:src="@drawable/baseline_play_arrow_black_48" />
+
+        <ImageView
+            android:id="@+id/fast_forward_button"
+            style="@style/FastForwardButton"
+            android:contentDescription="@string/fast_forward_button"
+            android:src="@drawable/baseline_fast_forward_black_48" />
+
+        <ImageView
+            android:id="@+id/rewind_button"
+            style="@style/RewindButton"
+            android:contentDescription="@string/rewind_button"
+            android:src="@drawable/baseline_fast_rewind_black_48" />
+
+        <TextView
+            android:id="@+id/playing_song"
+            style="@style/NowPlayingSong"
+            tools:text="song title" />
+
+        <TextView
+            android:id="@+id/playing_album"
+            style="@style/NowPlayingAlbum"
+            tools:text="album name" />
+
+        <TextView
+            android:id="@+id/playing_artist"
+            style="@style/NowPlayingArtist"
+            tools:text="artist name" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            style="@style/SeekBar" />
+
+    </RelativeLayout>
+</ScrollView>
